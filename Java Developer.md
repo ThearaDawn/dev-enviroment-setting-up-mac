@@ -1,14 +1,15 @@
 # Install JDK and Maven
 
-# Install OpenJdk with Brew
+## Install OpenJdk with Brew
 - Check specify version: https://formulae.brew.sh/formula/openjdk@11
 ```bash
 brew install openjdk@11
 ```
-# Download & Install Maven
+## Download & Install Maven
 - https://maven.apache.org/download.cgi
 
 ## Config 
+  
     #vim ~/.zshrc
     
     # Java
@@ -19,7 +20,6 @@ brew install openjdk@11
     # Deafault java version
     java11
     
-    #Maven
+    # Maven
     export MAVEN_HOME=$HOME/apache-maven-3.8.6
     export PATH=$MAVEN_HOME/bin:$PATH
-```
